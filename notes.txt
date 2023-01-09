@@ -1,0 +1,14 @@
+NOde JS ------
+
+Node JS ek run time environment hai jo javascript ka code run karta hai v8 engine ki help se 
+
+> jo module hame import karne padte hai vo non global module hote hai because vo bydefault environment mai nahi hai usko import karna padta hai
+
+> jo module import karneki ki jaroorat nahi hoti qki vo globally present hote hai usse kehte hai global module ex: console 
+> fs(fileSystem), Buffer , HTTP  --- Core Modules 
+ex fs fileSystem ka ek non global module hai 
+
+> http --> module hai jo node ke andar server ki request or response ko handle karta hai 
+
+> Use of filter in node? -->intv Q
+> How to send function as parameter in node ? -->intv Q
