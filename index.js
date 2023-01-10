@@ -42,9 +42,17 @@
 // for (element of x){
 //   console.log(element);
 // }
- 
-const x = ["shubham", "rohan", "bhaskar"];
-for (index in x) {
-  console.log(x[index]);
-}
 
+// const x = ["shubham", "rohan", "bhaskar"];
+// for (let index in x) {
+//   console.log(x[index]);
+// }
+
+// console.log("script start");
+// setTimeout(()=>{
+//   for (let i = 0; i < 100; i++) {
+//     console.log("shubham");
+//   }
+// },0)
+
+// console.log("script end");

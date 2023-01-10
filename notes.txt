@@ -18,6 +18,30 @@ ex fs fileSystem ka ek non global module hai
 > We should not delete package.json file as it can destroy our project 
 > package.json is the important file and should be handled properly 
 > .gitignore to ignore node_module 
+> package or module ek he cheej hoti hai bs naam alag hai 
+
+NodeMOn
+> Time saving module 
+> Nodemon aapke nodejs ke project ko continuosly run karte hai 
+> nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
+
+nodemon does not require any additional changes to your code or method of development. nodemon is a replacement wrapper for node. To use nodemon, replace the word node on the command line when executing your script.
+
+>Javascript is the synchronous single-threaded language but with the help of event-loop and promises, JavaScript is used to do asynchronous programming.
+
+>NodeJS is an asynchronous event-driven JavaScript runtime environment designed to build scalable network applications.
+
+POSTMAN ----
+
+> POSTMAN sends request from client to server via network, thats why its called POSTMAN 
+> Postman is a tool used to test API 
+> GET , PUT, POST , DELETE
+>module.exports = data;----> example to export anything in nodeJS (use module.exports )
+>const data = require('./data');----> example to import anything in nodeJS (use require)
 
 > Use of filter in node? -->intv Q
 > How to send function as parameter in node ? -->intv Q
+> can we delete Node Module? - yes , as we can recover by npm install 
+> Right method to add our project on git - By adding node module in .gitignore 
+> is node js sync or async ? -- async (it all about category when we talk of threading - nodejs is single threaded but if we talk about sync or async then its async)
+> What are status -- 200 ,201, 202, 404 , 500 etc --> understand this 
