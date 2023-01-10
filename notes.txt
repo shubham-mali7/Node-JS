@@ -1,6 +1,7 @@
 NOde JS ------
 
 Node JS ek run time environment hai jo javascript ka code run karta hai v8 engine ki help se 
+> Node js is Single threaded
 
 > jo module hame import karne padte hai vo non global module hote hai because vo bydefault environment mai nahi hai usko import karna padta hai
 
@@ -9,6 +10,14 @@ Node JS ek run time environment hai jo javascript ka code run karta hai v8 engin
 ex fs fileSystem ka ek non global module hai 
 
 > http --> module hai jo node ke andar server ki request or response ko handle karta hai 
+> Press ^C at any time to quit.
+
+> Package.json hamare project ke code related details rakhta hai
+> Sara ka sara lenadena Package.json npm se he hai (node Package manager) 
+> dependensies mai sare ke sare packages manage honge
+> We should not delete package.json file as it can destroy our project 
+> package.json is the important file and should be handled properly 
+> .gitignore to ignore node_module 
 
 > Use of filter in node? -->intv Q
 > How to send function as parameter in node ? -->intv Q
