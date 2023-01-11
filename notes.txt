@@ -42,9 +42,19 @@ POSTMAN ----
 >module.exports = data;----> example to export anything in nodeJS (use module.exports )
 >const data = require('./data');----> example to import anything in nodeJS (use require)
 
+CRUD with File system - Create Read Update Delete  
+
+asynchronous NODE 
+> Jo chheje node ki core mahi hai matlab hamne kahise inherit kari hai (c ya c++ se) like (setTimeout()) vo node API vale block mai registor ho jati hai 
+
+> Jab hum C C++ vale libraries se interact karte hai toh unhe bhi API kehte hai--- (2:47--YT)
+
+> API(Application Programming Interface) -- jab 2 programming language ke beech mai koi interface hota hai toh usse hum API kehte hai 
+
 > Use of filter in node? -->intv Q
 > How to send function as parameter in node ? -->intv Q
 > can we delete Node Module? - yes , as we can recover by npm install 
 > Right method to add our project on git - By adding node module in .gitignore 
 > is node js sync or async ? -- async (it all about category when we talk of threading - nodejs is single threaded but if we talk about sync or async then its async)
 > What are status -- 200 ,201, 202, 404 , 500 etc --> understand this 
+> What is Buffer? ----> Temporary memory location 

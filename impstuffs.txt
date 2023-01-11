@@ -45,3 +45,5 @@ Nodejs HTTP Module:
 It is a built-in module of node.js. It allows node.js applications to transfer data using HyperText Transfer Protocol (HTTP).
 
 This module creates an HTTP server that listens to server ports and also gives responses back to the client.
+
+> Yes, Node. js has a great portion of it written in C/C++ and a lot of its modules are actually implemented in C/C++. 
