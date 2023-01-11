@@ -3,6 +3,9 @@ NOde JS ------
 Node JS ek run time environment hai jo javascript ka code run karta hai v8 engine ki help se 
 > Node js is Single threaded
 
+>GLOBAL MODULES 
+Global modules are node packages that are installed on your system rather than your project directory. They allow us to use the package as a tool anywhere on the local computer.
+
 > jo module hame import karne padte hai vo non global module hote hai because vo bydefault environment mai nahi hai usko import karna padta hai
 
 > jo module import karneki ki jaroorat nahi hoti qki vo globally present hote hai usse kehte hai global module ex: console 

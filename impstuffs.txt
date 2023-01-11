@@ -1,0 +1,47 @@
+There are three types of modules
+1) Core Modules
+2) local Modules
+3) Third-party Modules
+
+1. Nodejs Core Modules:
+Built-in modules of node.js that are part of nodejs and come with the Node.js installation process are known as core modules.
+To load/include this module in our program, we use the require function.
+ex -->let  module = require('module_name')
+
+The return type of require() function depends on what the particular module returns.
+
+Http, file system and url modules are some of the core modules.
+
+2. Nodejs Local Modules:
+Local modules are created by us locally in our Node.js application. These modules are included in our program in the same way as we include the built in module.
+
+Let’s build a module with the name as sum to add two numbers and include them in our index.js file to use them.
+
+Code for creating local modules and exporting:
+
+exports.add=function(n,m){
+    return n+m;
+};
+
+Exports keyword is used to make properties and methods available outside the file.
+
+In order to include the add function in our index.js file we use the require function.
+
+Code for including local modules:
+
+let sum = require('./sum')
+ 
+console.log("Sum of 10 and 20 is ", sum.add(10, 20))
+Add the above code in a index.js file
+
+To run this file, open a terminal in the project directory and type node index.js and press enter. You can see the result of addition of 10 and 20. This addition has been performed by the add function in the sum module.
+
+3. Nodejs Third Party Modules:
+Modules that are available online and are installed using the npm are called third party modules. Examples of third party modules are express, mongoose, etc.
+
+To install third party modules refer to the previous blog where we have discussed how to install modules using npm.
+
+Nodejs HTTP Module:
+It is a built-in module of node.js. It allows node.js applications to transfer data using HyperText Transfer Protocol (HTTP).
+
+This module creates an HTTP server that listens to server ports and also gives responses back to the client.
