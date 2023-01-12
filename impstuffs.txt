@@ -47,3 +47,13 @@ It is a built-in module of node.js. It allows node.js applications to transfer d
 This module creates an HTTP server that listens to server ports and also gives responses back to the client.
 
 > Yes, Node. js has a great portion of it written in C/C++ and a lot of its modules are actually implemented in C/C++. 
+
+Types of middleware in Node. js
+Application-level middleware. In the application-level middleware, we consider an authentication middleware and how it can be created. ...
+Router-level middleware. ...
+Build-in middleware. ...
+Error-handling middleware. ...
+Third-party middleware.
+
+Route
+> A route refers to an HTTP method, path, and handler combination. Routes are created and added to the server before it starts listening for requests.

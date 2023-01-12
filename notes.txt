@@ -23,6 +23,9 @@ ex fs fileSystem ka ek non global module hai
 > .gitignore to ignore node_module 
 > package or module ek he cheej hoti hai bs naam alag hai 
 
+Route
+> A route refers to an HTTP method, path, and handler combination. Routes are created and added to the server before it starts listening for requests.
+
 NodeMOn
 > Time saving module 
 > Nodemon aapke nodejs ke project ko continuosly run karte hai 
@@ -51,6 +54,17 @@ asynchronous NODE
 
 > API(Application Programming Interface) -- jab 2 programming language ke beech mai koi interface hota hai toh usse hum API kehte hai 
 
+> Express JS is the framework of NOde
+
+> NODE JS apneaap mai ek choti library hai --- (2:57 YT)
+
+> We can use Express in 2 ways --- (3:18 YT) -- Executable function and one individual function 
+
+MIDDLEWARE -----
+
+> bohot baar hame authentications check karni hoti hai user login hai ya nahi hai toh vo hum Middleware ke andar kar sakte hai ya fir hame koi specific country ke andar site block karni hoti hai aise cases mai middleware use karte hai 
+
+
 > Use of filter in node? -->intv Q
 > How to send function as parameter in node ? -->intv Q
 > can we delete Node Module? - yes , as we can recover by npm install 
@@ -58,3 +72,8 @@ asynchronous NODE
 > is node js sync or async ? -- async (it all about category when we talk of threading - nodejs is single threaded but if we talk about sync or async then its async)
 > What are status -- 200 ,201, 202, 404 , 500 etc --> understand this 
 > What is Buffer? ----> Temporary memory location 
+> Whats the help of path module ? It helps to get the path to access your project folder
+> static method kya karta hai ? aapke static pages ko load karta hai  
+> What is template engines ? ---> Used in making dynamic pages , we have to install them as they are npm packages 
+> What are Dynamic pages ? 
+> What are Middleware and how to make it ? --> with Middleware we can access the req and resp and can modify them
