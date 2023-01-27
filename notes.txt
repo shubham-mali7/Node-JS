@@ -65,6 +65,28 @@ MIDDLEWARE -----
 > bohot baar hame authentications check karni hoti hai user login hai ya nahi hai toh vo hum Middleware ke andar kar sakte hai ya fir hame koi specific country ke andar site block karni hoti hai aise cases mai middleware use karte hai 
 
 
+MONGODB -----
+
+> MongoDB is NoSQL
+> MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas
+> Data is stored in a collection
+> Collection dont have row and columns 
+> Data is stored in form of objects
+> MongoDB kee andar tables nahi hote collections hote hai 
+
+2 ways to connect node with mongo (any 1 can be used) ---4:53 ---YT
+const { MongoClient } = require("mongodb");
+const MongoClient = require("mongodb").MongoClient;
+
+CRUD: ---------
+
+Create/Insert : db.products.insertOne({prdName: "Ravan", category: "Book", Series: "RamChandra", Author: "Anmish"})
+Read : db.products.find()
+Update: db.products.updateOne({prdName:"IKIGAI"},{$set:{author:"Nick Fury"}})
+Delete: db.products.deleteOne({prdName:"J5-Prime"})
+
+
+
 > Use of filter in node? -->intv Q
 > How to send function as parameter in node ? -->intv Q
 > can we delete Node Module? - yes , as we can recover by npm install 
@@ -77,3 +99,4 @@ MIDDLEWARE -----
 > What is template engines ? ---> Used in making dynamic pages , we have to install them as they are npm packages 
 > What are Dynamic pages ? 
 > What are Middleware and how to make it ? --> with Middleware we can access the req and resp and can modify them
+> What is CRUD Operation in MongoDB

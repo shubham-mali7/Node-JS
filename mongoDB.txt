@@ -1,0 +1,44 @@
+MONGODB -----
+
+> MongoDB is NoSQL
+> MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas
+> Data is stored in a collection
+> Collection dont have row and columns 
+> Data is stored in form of objects
+> MongoDB kee andar tables nahi hote collections hote hai 
+
+steps in MongoDB ---
+
+use youtube
+'switched to db youtube'  ------But it will not be visible unless you create collection
+show databases
+admin   40.00 KiB
+config  72.00 KiB
+local   72.00 KiB
+db.createCollection('videos')
+{ ok: 1 }
+show databases
+admin    40.00 KiB
+config   72.00 KiB
+local    72.00 KiB
+youtube   8.00 KiB
+
+db.createCollection('playList')
+{ ok: 1 }
+show collections
+playList
+videos
+
+db.videos.drop() --- Delete any collection
+true
+
+db.dropDatabase() ---- Delete any database
+{ ok: 1, dropped: 'youtube' }
+
+
+CRUD: ---------
+
+Create/Insert : db.products.insertOne({prdName: "Ravan", category: "Book", Series: "RamChandra", Author: "Anmish"})
+Read : db.products.find()
+Update: db.products.updateOne({name:'Iphone-14'},{$set:{Price: 1250}})
+Delete: db.products.deleteOne({prdName:"J5-Prime"})

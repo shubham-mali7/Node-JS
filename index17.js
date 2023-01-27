@@ -23,5 +23,8 @@ app.get("", (req, resp) => {
 app.get("/users", (req, resp) => {
   resp.send("Welcome to Users Page");
 });
+app.get("/about", (req, resp) => {
+  resp.send("Welcome to about Page");
+});
 
 app.listen(6400);

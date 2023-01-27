@@ -57,3 +57,7 @@ Third-party middleware.
 
 Route
 > A route refers to an HTTP method, path, and handler combination. Routes are created and added to the server before it starts listening for requests.
+
+MngoDB 
+
+> MongoDB is a source-available cross-platform document-oriented database program. Classified as a NoSQL database program, MongoDB uses JSON-like documents with optional schemas
