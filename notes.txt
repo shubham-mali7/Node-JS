@@ -86,6 +86,10 @@ Update: db.products.updateOne({prdName:"IKIGAI"},{$set:{author:"Nick Fury"}})
 Delete: db.products.deleteOne({prdName:"J5-Prime"})
 
 
+-----------------
+
+module.exports = dbConnect; ------ to export any function
+const dbConnect = require('./mongodb') ------ to import
 
 > Use of filter in node? -->intv Q
 > How to send function as parameter in node ? -->intv Q
@@ -100,3 +104,6 @@ Delete: db.products.deleteOne({prdName:"J5-Prime"})
 > What are Dynamic pages ? 
 > What are Middleware and how to make it ? --> with Middleware we can access the req and resp and can modify them
 > What is CRUD Operation in MongoDB
+
+
+Explained about Promises ------ 5:10:15
