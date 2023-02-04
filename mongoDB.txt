@@ -15,7 +15,7 @@ show databases
 admin   40.00 KiB
 config  72.00 KiB
 local   72.00 KiB
-db.createCollection('videos')
+db.createCollection('videos') ----------- to create collection
 { ok: 1 }
 show databases
 admin    40.00 KiB
