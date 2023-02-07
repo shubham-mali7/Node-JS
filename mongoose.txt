@@ -1,0 +1,5 @@
+Post api with mongoose 
+
+> Make configuration file for MongoDB
+> Make post route 
+> get data from postman and save in DB 
