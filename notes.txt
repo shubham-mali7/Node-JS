@@ -30,7 +30,8 @@ NodeMOn
 > Time saving module 
 > Nodemon aapke nodejs ke project ko continuosly run karte hai 
 > nodemon is a tool that helps develop Node.js based applications by automatically restarting the node application when file changes in the directory are detected.
-> How to run nodemon : ex ==>  nodemon .\readMongo.js (only once)
+> How to run nodemon : ex1 ==>  nodemon .\readMongo.js (only once)
+> How to run nodemon : ex2 ==>  nodemon .\api.js (only once)
 
 nodemon does not require any additional changes to your code or method of development. nodemon is a replacement wrapper for node. To use nodemon, replace the word node on the command line when executing your script.
 
@@ -91,6 +92,18 @@ Delete: db.products.deleteOne({prdName:"J5-Prime"})
 
 module.exports = dbConnect; ------ to export any function
 const dbConnect = require('./mongodb') ------ to import
+
+API With MONGODB------------
+
+major 4 methods : GET , POST, PUT, DELETE
+GET : TO get data from database
+POST : save data in database
+PUT : update data in database
+DELETE : Delete data from database
+
+imp -------- Jab bhi aaplog project banaoge toh database ki configuration kelie alag se file banake rakhloge or usko baar baar use karoge take har baar dataconnection kelie naya naya code naa likhna pade  ----5:42
+
+> Jab hum API banate hai tab usme Express ka bohot important role hota hai  
 
 > Use of filter in node? -->intv Q
 > How to send function as parameter in node ? -->intv Q
