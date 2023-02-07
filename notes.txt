@@ -105,6 +105,26 @@ imp -------- Jab bhi aaplog project banaoge toh database ki configuration kelie 
 
 > Jab hum API banate hai tab usme Express ka bohot important role hota hai  
 
+
+MONGOOSE--------------------
+
+Wht is MONGOOSE? ----> Nodejs ko MongoDB se connect karnekelie ek npm package hai 
+MONGOOSE hame thodisi advancement provide karta hai as compared to mongodb
+MONGOOSE mai hum schemas , validations apply karsakte hai field control kar sakte hai jo hum mongodb mai nahi kar sakte 
+
+Wht is schemas? ---------------------
+Ye basically database ki field ko validate karti hai (6:30)
+jitne bhi hamare database ke andar fields hai vo define karti hai schemas ke andar taake validation apply hopae
+
+What is Model? ------------------
+MOdel basically aapke nodejs ko MONGODB se connect karta hai 
+schemas ko use karke nodejs or mongodb ko connect karta hai 
+
+DIFFERENCE BETWEEN MONGOOSE AND MONGODB---------------
+
+Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. MongoDB is a schema-less NoSQL document database.
+
+
 > Use of filter in node? -->intv Q
 > How to send function as parameter in node ? -->intv Q
 > can we delete Node Module? - yes , as we can recover by npm install 
