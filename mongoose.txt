@@ -3,3 +3,5 @@ Post api with mongoose
 > Make configuration file for MongoDB
 > Make post route 
 > get data from postman and save in DB 
+
+> A Mongoose model is a wrapper of the Mongoose schema. A Mongoose schema defines the document's properties, default values, types of data, validators, etc. In contrast, a Mongoose model provides an interface for the database to create, query, update, delete records, and so on.

@@ -125,6 +125,10 @@ DIFFERENCE BETWEEN MONGOOSE AND MONGODB---------------
 Mongoose is an Object Data Modeling (ODM) library for MongoDB and Node. js. It manages relationships between data, provides schema validation, and is used to translate between objects in code and the representation of those objects in MongoDB. MongoDB is a schema-less NoSQL document database.
 
 
+Search API can be created by two ways ----
+1) with single field 
+2) with multiple field
+
 > Use of filter in node? -->intv Q
 > How to send function as parameter in node ? -->intv Q
 > can we delete Node Module? - yes , as we can recover by npm install 

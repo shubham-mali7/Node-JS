@@ -13,6 +13,8 @@ app.post("/create", async (req, resp) => {
   resp.send(req.body);
 });
 
+// get delte and put API using mongoose ---------
+
 app.get("/list", async (req, resp) => {
   let data = await Products.find();
   resp.send(data);
